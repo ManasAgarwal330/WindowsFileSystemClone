@@ -1,0 +1,66 @@
+.container{
+    border:1px solid black;
+    display: flex;
+    background-color: lightyellow;
+
+}
+
+.navigation{
+    border:1px solid black;
+    display: flex;
+    background-color: lightyellow;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+
+.addFolder{
+    margin-left: 50%;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+
+.addFolder:hover{
+    transform: scale(1.05);
+}
+
+.folder{
+    border:1px solid black;
+    height:100px;
+    width:120px;
+    background-color: aqua;
+    margin:4px;
+    padding:4px;
+    border-radius: 10px;
+}
+
+.folder [action="edit"]{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.folder [action="delete"]{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.folder [action="view"]{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.folder [purpose="textAdder"]{
+    margin-top: 10px;
+}
+
+.path{
+    background-color: grey;
+    padding:4px;
+    border-right: 3px solid black;
+}
+
+.path:hover{
+    text-decoration: underline;
+    background-color: white;
+    cursor:pointer;
+    color:blue;
+}
